@@ -1,4 +1,10 @@
 /* Reset some default browser styles */
+:root {
+    --bg: #f0f0f0;
+    --fg:#333;
+    --border: 5px;
+}
+
 body, h1, h2, p, ul {
     margin: 0;
     padding: 0;
@@ -10,7 +16,7 @@ body, h1, h2, p, ul {
 
 body {
     font-family: Helvetica, Arial, sans-serif;
-    color: #333;
+    color: var(--fg);
     background-color: #f0f0f0;
 }
 
